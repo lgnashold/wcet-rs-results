@@ -1,0 +1,3 @@
+Tests the function reset_active_alarm in ble advertising drive, 
+but with the call to set_alarm commented out (lines 359 - 361 
+inclusive). Timeout is 900.

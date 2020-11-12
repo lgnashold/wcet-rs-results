@@ -1,0 +1,27 @@
+   Compiling wcet-rs v0.1.0 (/home/langston/Projects/Research/wcet-rs)
+    Finished dev [unoptimized + debuginfo] target(s) in 3.43s
+     Running `target/debug/wcet-rs --functions interrupts -i 2 -t 600 -p tock -r results_all`
+thread '<unnamed>' panicked at '`SolverError`: the solver returned this error while evaluating a query: The query was interrupted, timed out, or otherwise failed
+
+Backtrace:
+  #1: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: capsules::ble_advertising_driver::BLE<B,A>::reset_active_alarm, bb %bb2.i.i.i.i.i.i.i, terminator}
+         (/home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/mod.rs, line 386, col 13)
+  #2: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: <capsules::ble_advertising_driver::BLE<B,A> as kernel::hil::time::AlarmClient>::fired, bb %_ZN6kernel5grant14Grant$LT$T$GT$4each17h37ec5c3d92929486E.exit, instr 1}
+         (/home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 430, col 9)
+
+note: For a dump of the path that led to this error, rerun with the environment variable `HAYBALE_DUMP_PATH` set to:
+        `LLVM` for a list of the LLVM basic blocks in the path
+        `SRC` for a list of the source-language locations in the path
+        `BOTH` for both of the above
+      To get source-language locations, the LLVM bitcode must also contain
+      debuginfo. For example, C/C++ or Rust sources must be compiled with the
+      `-g` flag to `clang`, `clang++`, or `rustc`.
+
+note: For a dump of variable values at time of error, rerun with `HAYBALE_DUMP_VARS=1` environment variable.
+
+note: to enable detailed logs, ensure that debug-level logging messages are visible.
+  See the documentation for your chosen logging backend (e.g., env_logger, log4rs, etc)
+  for help with configuration.
+
+', /home/langston/.cargo/git/checkouts/haybale-7526b6073ab3b0a7/9117cd1/src/dyn_dispatch.rs:60:21
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

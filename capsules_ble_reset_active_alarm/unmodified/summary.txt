@@ -1,0 +1,5 @@
+Profiled only the function reset_active_alarm in the ble 
+implementation. 
+
+
+This ultimately failed due to timeout. 

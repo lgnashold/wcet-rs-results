@@ -1,0 +1,6 @@
+timeout: 900 
+
+Run reset_active_alarm in ble_advertising_driver, but
+with a lower value for take in the grant pointer. 
+Only take one value from the grant instead of four, 
+which basically assumes we only have one process.  

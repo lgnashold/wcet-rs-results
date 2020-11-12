@@ -1,0 +1,3 @@
+Ran ble::fired with only line 430 commented out. 
+
+Result: Seg fault? 

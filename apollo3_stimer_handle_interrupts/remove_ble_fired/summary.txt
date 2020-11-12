@@ -1,0 +1,4 @@
+Ran the Alarm Fired function with the entire BLE routine commented out. 
+
+Result: It ran the AlarmDriver implementation of fired, which eventually 
+timed out. I think this might be because of recursive calls to fired. 

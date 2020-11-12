@@ -1,0 +1,893 @@
+Compiling "tock/boards/redboard_artemis_nano", please wait...
+BC DIR tock/target/thumbv7em-none-eabi/release/deps/
+func_name_contains: ["ble", "reset", "active", "alarm"]
+Profiling "_ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E"
+"post_hudson_change/redboard_artemis_nano/capsules::ble_advertising_driver::BLE<B,A>::reset_active_alarm::hdd9ebd5daeb02826.txt"
+Call to next() #0 completed in 0 seconds
+Call to next() #1 completed in 0 seconds
+Call to next() #2 completed in 0 seconds
+Call to next() #3 completed in 0 seconds
+Call to next() #4 completed in 0 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i, instr 13}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:300:21"
+matched: "        _6 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _7, move _8) -> bb1; // scope 0 at kernel/src/grant.rs:300:21: 300:53"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #5 completed in 0 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i.i, instr 0}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:301:38"
+matched: "        _11 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _12, move _13) -> bb5; // scope 0 at kernel/src/grant.rs:301:38: 301:70"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #6 completed in 0 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i, instr 12}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:312:53"
+matched: "        _4 = const <dyn process::ProcessType as process::ProcessType>::appid(move _5) -> bb1; // scope 0 at kernel/src/grant.rs:312:53: 312:68"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+Call to next() #7 completed in 0 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i, instr 14}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/sched.rs:258:24"
+matched: "        _5 = const <dyn process::ProcessType as process::ProcessType>::appid(move _6) -> bb1; // scope 0 at kernel/src/sched.rs:258:24: 258:39"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i4.i.i, instr 8}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:145:38"
+matched: "        _3 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _4, move _5) -> bb1; // scope 0 at kernel/src/grant.rs:145:38: 145:75"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #8 completed in 1 seconds
+Call to next() #9 completed in 0 seconds
+Call to next() #10 completed in 0 seconds
+Call to next() #11 completed in 0 seconds
+Call to next() #12 completed in 0 seconds
+Call to next() #13 completed in 0 seconds
+Call to next() #14 completed in 1 seconds
+Call to next() #15 completed in 0 seconds
+Call to next() #16 completed in 0 seconds
+Call to next() #17 completed in 0 seconds
+Call to next() #18 completed in 0 seconds
+Call to next() #19 completed in 0 seconds
+Call to next() #20 completed in 0 seconds
+Call to next() #21 completed in 1 seconds
+Call to next() #22 completed in 0 seconds
+Call to next() #23 completed in 0 seconds
+Call to next() #24 completed in 0 seconds
+Call to next() #25 completed in 0 seconds
+Call to next() #26 completed in 0 seconds
+Call to next() #27 completed in 0 seconds
+Call to next() #28 completed in 0 seconds
+Call to next() #29 completed in 0 seconds
+Call to next() #30 completed in 0 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i, instr 13}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:300:21"
+matched: "        _6 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _7, move _8) -> bb1; // scope 0 at kernel/src/grant.rs:300:21: 300:53"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #31 completed in 1 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i.i, instr 0}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:301:38"
+matched: "        _11 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _12, move _13) -> bb5; // scope 0 at kernel/src/grant.rs:301:38: 301:70"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #32 completed in 1 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i, instr 12}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:312:53"
+matched: "        _4 = const <dyn process::ProcessType as process::ProcessType>::appid(move _5) -> bb1; // scope 0 at kernel/src/grant.rs:312:53: 312:68"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+Call to next() #33 completed in 1 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i, instr 14}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/sched.rs:258:24"
+matched: "        _5 = const <dyn process::ProcessType as process::ProcessType>::appid(move _6) -> bb1; // scope 0 at kernel/src/sched.rs:258:24: 258:39"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i4.i.i, instr 8}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:145:38"
+matched: "        _3 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _4, move _5) -> bb1; // scope 0 at kernel/src/grant.rs:145:38: 145:75"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #34 completed in 2 seconds
+Call to next() #35 completed in 0 seconds
+Call to next() #36 completed in 0 seconds
+Call to next() #37 completed in 0 seconds
+Call to next() #38 completed in 0 seconds
+Call to next() #39 completed in 0 seconds
+Call to next() #40 completed in 0 seconds
+Call to next() #41 completed in 0 seconds
+Call to next() #42 completed in 0 seconds
+Call to next() #43 completed in 0 seconds
+Call to next() #44 completed in 0 seconds
+Call to next() #45 completed in 0 seconds
+Call to next() #46 completed in 0 seconds
+Call to next() #47 completed in 0 seconds
+Call to next() #48 completed in 0 seconds
+Call to next() #49 completed in 0 seconds
+Call to next() #50 completed in 0 seconds
+Call to next() #51 completed in 0 seconds
+Call to next() #52 completed in 0 seconds
+Call to next() #53 completed in 0 seconds
+Call to next() #54 completed in 0 seconds
+Call to next() #55 completed in 0 seconds
+Call to next() #56 completed in 0 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i, instr 13}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:300:21"
+matched: "        _6 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _7, move _8) -> bb1; // scope 0 at kernel/src/grant.rs:300:21: 300:53"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #57 completed in 1 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i.i, instr 0}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:301:38"
+matched: "        _11 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _12, move _13) -> bb5; // scope 0 at kernel/src/grant.rs:301:38: 301:70"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #58 completed in 5 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i, instr 12}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:312:53"
+matched: "        _4 = const <dyn process::ProcessType as process::ProcessType>::appid(move _5) -> bb1; // scope 0 at kernel/src/grant.rs:312:53: 312:68"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+Call to next() #59 completed in 1 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i, instr 14}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/sched.rs:258:24"
+matched: "        _5 = const <dyn process::ProcessType as process::ProcessType>::appid(move _6) -> bb1; // scope 0 at kernel/src/sched.rs:258:24: 258:39"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i4.i.i, instr 8}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:145:38"
+matched: "        _3 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _4, move _5) -> bb1; // scope 0 at kernel/src/grant.rs:145:38: 145:75"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #60 completed in 10 seconds
+Call to next() #61 completed in 0 seconds
+Call to next() #62 completed in 0 seconds
+Call to next() #63 completed in 5 seconds
+Call to next() #64 completed in 0 seconds
+Call to next() #65 completed in 0 seconds
+Call to next() #66 completed in 17 seconds
+Call to next() #67 completed in 0 seconds
+Call to next() #68 completed in 0 seconds
+Call to next() #69 completed in 0 seconds
+Call to next() #70 completed in 2 seconds
+Call to next() #71 completed in 0 seconds
+Call to next() #72 completed in 0 seconds
+Call to next() #73 completed in 2 seconds
+Call to next() #74 completed in 0 seconds
+Call to next() #75 completed in 0 seconds
+Call to next() #76 completed in 0 seconds
+Call to next() #77 completed in 0 seconds
+Call to next() #78 completed in 0 seconds
+Call to next() #79 completed in 0 seconds
+Call to next() #80 completed in 0 seconds
+Call to next() #81 completed in 6 seconds
+Call to next() #82 completed in 0 seconds
+Call to next() #83 completed in 0 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i, instr 13}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:300:21"
+matched: "        _6 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _7, move _8) -> bb1; // scope 0 at kernel/src/grant.rs:300:21: 300:53"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #84 completed in 1 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i.i, instr 0}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:301:38"
+matched: "        _11 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _12, move _13) -> bb5; // scope 0 at kernel/src/grant.rs:301:38: 301:70"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #85 completed in 5 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i, instr 12}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:312:53"
+matched: "        _4 = const <dyn process::ProcessType as process::ProcessType>::appid(move _5) -> bb1; // scope 0 at kernel/src/grant.rs:312:53: 312:68"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+Call to next() #86 completed in 2 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i, instr 14}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/sched.rs:258:24"
+matched: "        _5 = const <dyn process::ProcessType as process::ProcessType>::appid(move _6) -> bb1; // scope 0 at kernel/src/sched.rs:258:24: 258:39"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i4.i.i, instr 8}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:145:38"
+matched: "        _3 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _4, move _5) -> bb1; // scope 0 at kernel/src/grant.rs:145:38: 145:75"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #87 completed in 3 seconds
+Call to next() #88 completed in 1 seconds
+Call to next() #89 completed in 0 seconds
+Call to next() #90 completed in 2 seconds
+Call to next() #91 completed in 0 seconds
+Call to next() #92 completed in 0 seconds
+Call to next() #93 completed in 33 seconds
+Call to next() #94 completed in 0 seconds
+Call to next() #95 completed in 0 seconds
+Call to next() #96 completed in 0 seconds
+Call to next() #97 completed in 2 seconds
+Call to next() #98 completed in 0 seconds
+Call to next() #99 completed in 0 seconds
+Call to next() #100 completed in 2 seconds
+Call to next() #101 completed in 0 seconds
+Call to next() #102 completed in 0 seconds
+Call to next() #103 completed in 0 seconds
+Call to next() #104 completed in 0 seconds
+Call to next() #105 completed in 0 seconds
+Call to next() #106 completed in 0 seconds
+Call to next() #107 completed in 0 seconds
+Call to next() #108 completed in 1 seconds
+Call to next() #109 completed in 14 seconds
+Call to next() #110 completed in 108 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i, instr 13}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:300:21"
+matched: "        _6 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _7, move _8) -> bb1; // scope 0 at kernel/src/grant.rs:300:21: 300:53"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #111 completed in 15 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i.i, instr 0}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:301:38"
+matched: "        _11 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _12, move _13) -> bb5; // scope 0 at kernel/src/grant.rs:301:38: 301:70"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #112 completed in 43 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i, instr 12}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:312:53"
+matched: "        _4 = const <dyn process::ProcessType as process::ProcessType>::appid(move _5) -> bb1; // scope 0 at kernel/src/grant.rs:312:53: 312:68"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+Call to next() #113 completed in 23 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i, instr 14}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/sched.rs:258:24"
+matched: "        _5 = const <dyn process::ProcessType as process::ProcessType>::appid(move _6) -> bb1; // scope 0 at kernel/src/sched.rs:258:24: 258:39"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i4.i.i, instr 8}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:145:38"
+matched: "        _3 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _4, move _5) -> bb1; // scope 0 at kernel/src/grant.rs:145:38: 145:75"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #114 completed in 5 seconds
+Call to next() #115 completed in 3 seconds
+Call to next() #116 completed in 1 seconds
+Call to next() #117 completed in 48 seconds
+Call to next() #118 completed in 0 seconds
+Call to next() #119 completed in 0 seconds
+Call to next() #120 completed in 3 seconds
+Call to next() #121 completed in 0 seconds
+Call to next() #122 completed in 0 seconds
+Call to next() #123 completed in 0 seconds
+Call to next() #124 completed in 4 seconds
+Call to next() #125 completed in 0 seconds
+Call to next() #126 completed in 0 seconds
+Call to next() #127 completed in 147 seconds
+Call to next() #128 completed in 0 seconds
+Call to next() #129 completed in 0 seconds
+Call to next() #130 completed in 0 seconds
+Call to next() #131 completed in 1 seconds
+Call to next() #132 completed in 1 seconds
+Call to next() #133 completed in 0 seconds
+Call to next() #134 completed in 0 seconds
+Call to next() #135 completed in 57 seconds
+Call to next() #136 completed in 0 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i, instr 13}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:300:21"
+matched: "        _6 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _7, move _8) -> bb1; // scope 0 at kernel/src/grant.rs:300:21: 300:53"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #137 completed in 3 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i.i, instr 0}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:301:38"
+matched: "        _11 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _12, move _13) -> bb5; // scope 0 at kernel/src/grant.rs:301:38: 301:70"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #138 completed in 228 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i, instr 12}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:312:53"
+matched: "        _4 = const <dyn process::ProcessType as process::ProcessType>::appid(move _5) -> bb1; // scope 0 at kernel/src/grant.rs:312:53: 312:68"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+Call to next() #139 completed in 11 seconds
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb3.i.i.i.i.i.i.i.i.i, instr 14}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/sched.rs:258:24"
+matched: "        _5 = const <dyn process::ProcessType as process::ProcessType>::appid(move _6) -> bb1; // scope 0 at kernel/src/sched.rs:258:24: 258:39"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN8capsules22ble_advertising_driver16BLE$LT$B$C$A$GT$18reset_active_alarm17hdd9ebd5daeb02826E, bb %bb4.i.i.i.i.i.i.i.i4.i.i, instr 8}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:145:38"
+matched: "        _3 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _4, move _5) -> bb1; // scope 0 at kernel/src/grant.rs:145:38: 145:75"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Longest lookup match!
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+Call to next() #140 completed in 9 seconds
+Call to next() #141 completed in 5 seconds
+Call to next() #142 completed in 4 seconds
+Call to next() # 143 failed after 201 seconds
+`SolverError`: the solver returned this error while evaluating a query: The query was interrupted, timed out, or otherwise failed
+
+Backtrace:
+  #1: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: <capsules::virtual_alarm::VirtualMuxAlarm<A> as kernel::hil::time::Alarm>::set_alarm, bb %bb7, terminator}
+         (/home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 84, col 9)
+  #2: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: capsules::ble_advertising_driver::BLE<B,A>::reset_active_alarm, bb %bb15, instr 2}
+         (/home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 360, col 13)
+
+Source-language path to error:
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 143, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 343, col 19
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 43, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/chips/apollo3/src/stimer.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/chips/apollo3/src/stimer.rs, line 182, col 20
+  /home/langston/Projects/Research/wcet-rs/tock/chips/apollo3/src/stimer.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/chips/apollo3/src/stimer.rs, line 184, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/libraries/tock-register-interface/src/registers.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 1007, col 5
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 346, col 20
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 271, col 22
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 296, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 160, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 269, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/callback.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 346, col 20
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2191, col 12
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2192, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 290, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2249, col 12
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 3179, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 154, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2243, col 17
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 154, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1113, col 28
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1114, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 295, col 10
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 154, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2243, col 17
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 154, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1113, col 28
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1114, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2245, col 20
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/mod.rs, line 386, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 3179, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 154, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2243, col 17
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 154, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1113, col 28
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1114, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 295, col 10
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 154, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2243, col 17
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 154, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1113, col 28
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1114, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1114, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 300, col 21
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 189, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 2186, col 29
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 2187, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1202, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 405, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 2068, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 406, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1202, col 12
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 984, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 984, col 43
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 160, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1208, col 39
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1209, col 41
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 160, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1209, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1212, col 6
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1114, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 300, col 21
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 189, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 301, col 38
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 301, col 20
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 2186, col 29
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 2187, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1202, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 405, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 2068, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 406, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1202, col 12
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1212, col 6
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 301, col 38
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 301, col 20
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2245, col 20
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/mod.rs, line 386, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 3179, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 154, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2243, col 17
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 154, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1113, col 28
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1114, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 295, col 10
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 154, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2243, col 17
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ops/function.rs, line 154, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1113, col 28
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1114, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1114, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 300, col 21
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 189, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 2186, col 29
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 2187, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1202, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 405, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 2068, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 406, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1202, col 12
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 984, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 984, col 43
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 160, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1208, col 39
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1209, col 41
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 160, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1209, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1212, col 6
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 1114, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 300, col 21
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 189, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 301, col 38
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 301, col 20
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 2186, col 29
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 2187, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1202, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 405, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 2068, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 406, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1202, col 12
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 984, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 984, col 43
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 160, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1208, col 39
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1209, col 41
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 160, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1209, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1212, col 6
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 301, col 38
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 301, col 20
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 301, col 38
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mut_ptr.rs, line 28, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2245, col 20
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/mod.rs, line 386, col 13
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/convert/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/convert/mod.rs, line 568, col 6
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/traits/iterator.rs, line 1889, col 32
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/mod.rs, line 404, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/mod.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 295, col 19
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 485, col 13
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 485, col 13
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 312, col 53
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 144, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 144, col 43
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 144, col 43
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 250, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 2851, col 12
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 485, col 13
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 312, col 53
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 144, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 144, col 43
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 144, col 43
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 250, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/slice/mod.rs, line 2851, col 12
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 255, col 17
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 485, col 13
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 485, col 13
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 258, col 24
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/callback.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/callback.rs, line 70, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 258, col 47
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 485, col 13
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 258, col 24
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/callback.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/callback.rs, line 70, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 258, col 47
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 145, col 60
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 145, col 38
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 145, col 20
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 2186, col 29
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 2187, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1202, col 25
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 405, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 2068, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 406, col 9
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1202, col 12
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 984, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 984, col 43
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 160, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1208, col 39
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1209, col 41
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/const_ptr.rs, line 160, col 9
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1209, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/process.rs, line 1212, col 6
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/sched.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 145, col 60
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 145, col 38
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 145, col 20
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 145, col 38
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/option.rs, line 458, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 312, col 68
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/kernel/src/grant.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 348, col 17
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 348, col 33
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/num/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/num/mod.rs, line 3443, col 17
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 350, col 24
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 350, col 21
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 346, col 20
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/iter/adapters/mod.rs, line 2191, col 12
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 359, col 12
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 360, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/ble_advertising_driver.rs, line 360, col 13
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 77, col 23
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 79, col 13
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 431, col 18
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 80, col 34
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 2068, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/cell.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/maybe_uninit.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/ptr/mod.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 0, col 0
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/intrinsics.rs, line 2068, col 5
+  /home/langston/.rustup/toolchains/nightly-2020-06-03-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libcore/mem/mod.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 0, col 0
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 84, col 12
+  /home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 0, col 0
+note: to also get a dump of the LLVM basic blocks in this path, rerun with `HAYBALE_DUMP_PATH=BOTH`.
+
+note: For a dump of variable values at time of error, rerun with `HAYBALE_DUMP_VARS=1` environment variable.
+
+note: to enable detailed logs, ensure that debug-level logging messages are visible.
+  See the documentation for your chosen logging backend (e.g., env_logger, log4rs, etc)
+  for help with configuration.
+
+
+"post_hudson_change/redboard_artemis_nano/summary.txt"

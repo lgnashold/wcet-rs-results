@@ -1,0 +1,30 @@
+Compiling "tock/boards/redboard_artemis_nano", please wait...
+BC DIR tock/target/thumbv7em-none-eabi/release/deps/
+func_name_contains: ["ble", "fired"]
+Profiling "_ZN101_$LT$capsules..ble_advertising_driver..BLE$LT$B$C$A$GT$$u20$as$u20$kernel..hil..time..AlarmClient$GT$5fired17h943252fe37fa6c2dE"
+"res_ble_only_no_reset_active/redboard_artemis_nano/<capsules::ble_advertising_driver::BLE<B,A> as kernel::hil::time::AlarmClient>::fired::h943252fe37fa6c2d.txt"
+next() worked
+next() worked
+next() worked
+next() worked
+next() worked
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN101_$LT$capsules..ble_advertising_driver..BLE$LT$B$C$A$GT$$u20$as$u20$kernel..hil..time..AlarmClient$GT$5fired17h943252fe37fa6c2dE, bb %bb11.i.i, instr 13}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:254:38"
+matched: "        _3 = const <dyn process::ProcessType as process::ProcessType>::get_grant_ptr(move _4, move _5) -> bb1; // scope 0 at kernel/src/grant.rs:254:38: 254:75"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "get_grant_ptr"
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$13get_grant_ptr17h0f6353c60c2e9389E")
+next() worked
+next() worked
+location: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: _ZN101_$LT$capsules..ble_advertising_driver..BLE$LT$B$C$A$GT$$u20$as$u20$kernel..hil..time..AlarmClient$GT$5fired17h943252fe37fa6c2dE, bb %bb3.i.i.i.i, instr 6}
+mir_path_str_base: "tock/target/thumbv7em-none-eabi/release/deps"
+line_str: "kernel/src/grant.rs:256:66"
+matched: "        _6 = const <dyn process::ProcessType as process::ProcessType>::appid(move _7) -> bb2; // scope 0 at kernel/src/grant.rs:256:66: 256:81"
+1: "process::ProcessType", 2: "process::ProcessType"
+TRAIT FOUND: "process::ProcessType", FUNCTION FOUND: "appid"
+Concrete function: Ok("_ZN82_$LT$kernel..process..Process$LT$C$GT$$u20$as$u20$kernel..process..ProcessType$GT$5appid17hb3ca95216e69bd1bE")
+next() worked
+next() worked
+next() worked
+next() worked

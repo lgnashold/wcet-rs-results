@@ -1,0 +1,2 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.05s
+     Running `target/debug/wcet-rs -c ble -c reset -c active -c alarm -t 900 -r res_reset_active_alarm`

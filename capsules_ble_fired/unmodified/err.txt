@@ -1,0 +1,2 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.04s
+     Running `target/debug/wcet-rs -c ble -c fired -t 1300 -p tock -r results_ble_only2`

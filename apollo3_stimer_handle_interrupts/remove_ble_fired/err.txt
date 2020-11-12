@@ -1,0 +1,32 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.05s
+     Running `target/debug/wcet-rs --functions interrupts -i 2 -t 900 -r results_no_ble`
+thread '<unnamed>' panicked at '`SolverError`: the solver returned this error while evaluating a query: The query was interrupted, timed out, or otherwise failed
+
+Backtrace:
+  #1: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: <capsules::virtual_alarm::VirtualMuxAlarm<A> as kernel::hil::time::Alarm>::disable, bb %start, terminator}
+         (/home/langston/Projects/Research/wcet-rs/tock/capsules/src/virtual_alarm.rs, line 56, col 9)
+  #2: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: <capsules::alarm::AlarmDriver<A> as kernel::hil::time::AlarmClient>::fired, bb %bb5, instr 2}
+         (/home/langston/Projects/Research/wcet-rs/tock/capsules/src/alarm.rs, line 202, col 13)
+  #3: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: <capsules::alarm::AlarmDriver<A> as kernel::hil::time::AlarmClient>::fired, bb %bb13, instr 1}
+         (/home/langston/Projects/Research/wcet-rs/tock/capsules/src/alarm.rs, line 206, col 17)
+  #4: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: <capsules::alarm::AlarmDriver<A> as kernel::hil::time::AlarmClient>::fired, bb %bb13, instr 1}
+         (/home/langston/Projects/Research/wcet-rs/tock/capsules/src/alarm.rs, line 206, col 17)
+  #5: {tock/target/thumbv7em-none-eabi/release/deps/redboard_artemis_nano-ed50f6f2ea19f5fc.bc: <capsules::alarm::AlarmDriver<A> as kernel::hil::time::AlarmClient>::fired, bb %bb13, instr 1}
+         (/home/langston/Projects/Research/wcet-rs/tock/capsules/src/alarm.rs, line 206, col 17)
+
+note: For a dump of the path that led to this error, rerun with the environment variable `HAYBALE_DUMP_PATH` set to:
+        `LLVM` for a list of the LLVM basic blocks in the path
+        `SRC` for a list of the source-language locations in the path
+        `BOTH` for both of the above
+      To get source-language locations, the LLVM bitcode must also contain
+      debuginfo. For example, C/C++ or Rust sources must be compiled with the
+      `-g` flag to `clang`, `clang++`, or `rustc`.
+
+note: For a dump of variable values at time of error, rerun with `HAYBALE_DUMP_VARS=1` environment variable.
+
+note: to enable detailed logs, ensure that debug-level logging messages are visible.
+  See the documentation for your chosen logging backend (e.g., env_logger, log4rs, etc)
+  for help with configuration.
+
+', /home/langston/.cargo/git/checkouts/haybale-7526b6073ab3b0a7/9117cd1/src/dyn_dispatch.rs:60:21
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
